@@ -1,5 +1,5 @@
 import datetime
-import winsound                      # pip install playsound
+import winsound  # pip install playsound
 
 
 def alarm(Timing):
@@ -25,3 +25,6 @@ def alarm(Timing):
 
 if __name__ == '__main__':
     alarm('09:21 PM')
+
+def hello():
+    print("Hello")
